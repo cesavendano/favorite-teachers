@@ -3,7 +3,7 @@
  }
  
  body {
-     background-color: black;
+     background-color: rgb(15, 173, 173);
      font-family: 'Alegreya Sans', sans-serif;
  }
  
@@ -25,7 +25,7 @@
  }
  
  #search {
-     float: left;
+     float: right;
      padding: 1.25em;
  }
  
@@ -40,7 +40,7 @@
  }
  
  #navigation {
-     background-color: rgb(255, 187, 0);
+     background-color: rgb(255, 255, 255);
  }
  
  #navigation ul {
@@ -49,26 +49,27 @@
  }
  
  #navigation li {
-     float: left;
+     float: right;
      padding: 10px 20px;
-     border-right: 1px solid black;
+     border-right: 1px solid rgb(15, 173, 173);
+     color: white,
  }
  
  #navigation li:hover {
-     background-color: white;
+     background-color: rgb(245, 245, 245);
      cursor: pointer;
  }
  
  main {
      width: 100%;
      min-height: 350px;
-     background-color: black;
+     background-color: rgb(15, 173, 173);
  }
  
  main > aside {
      float: left;
      width: 20%;
-     background-color: rgb(255, 187, 0);
+     background-color: rgb(15, 173, 173);
      padding: 20px;
  }
  
@@ -76,7 +77,7 @@
      float: left;
      width: 80%;
      padding: 20px;
-     background-color: black;
+     background-color: rgb(15, 173, 173);
      color: white;
  }
 
@@ -86,7 +87,7 @@
  
  aside hr {
      border: none;
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid rgb(0, 0, 0);
      padding-bottom: 5px;
  }
 
@@ -98,8 +99,8 @@
 
  .teacher {
      width: 30%;
-     background-color: white;
-     color: black;
+     background-color: rgb(255, 255, 255);
+     color: rgb(15, 173, 173);
      float: left;
      margin: 0 20px 20px 0;
  }
